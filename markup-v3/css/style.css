@@ -99,7 +99,9 @@ em { font-style:italic; }
 }
 /* user panel */
 .user-panel{
-    position:absolute;    right:0;    top:13px;
+    position:absolute;
+    right:0;
+    top:13px;
     width:340px;
     color:#a4b2bc;
     background:#fff;
@@ -211,7 +213,8 @@ em { font-style:italic; }
 }
 #nav li ul {
     position:absolute;
-    left: 0;    top:0;
+    left: 0;
+    top:0;
     width:450px;
     display:none;
     padding: 36px 0 0;
@@ -630,7 +633,8 @@ table td  a {
     background: url(../images/bg-form-elements.png) no-repeat 0 -30px;
     width: 460px;
     height: 109px;
-    margin:0 0 15px;
+    display: inline-block;
+    margin: 0 0px 15px 0px;
     font-size:18px;
     line-height:28px;
     border:none;
@@ -644,6 +648,9 @@ table td  a {
     overflow:auto;
     border:none;
     padding:0;
+}
+.form .tip {
+    display: block;
 }
 /* trafic */
 .ttl-trafic {
@@ -947,11 +954,15 @@ table td  a {
     padding: 0 10px 0 0;
 }
 .form-contacts .invalid {
-    float:left;
+    display: inline-block;
+    vertical-align: top;
     color:#f25d50;
     font-size:13px;
     padding:0 10px;
     line-height: 28px;
+}
+.form-contacts .text-row {
+    padding-top: 10px;
 }
 .form-contacts select {
     width: 265px;
@@ -961,7 +972,6 @@ table td  a {
     border-radius: 5px;
     background: url(../images/bg-input.png) repeat-x;
     border: 1px solid #1f737b;
-    margin: 0 20px 0 0;
     float: left;
 }
 /*footer*/
