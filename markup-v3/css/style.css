@@ -888,12 +888,11 @@ table td  a {
     height:1%;
 }
 /*payments*/
-.ttl-payments, .ttl-privacy {
+.ttl-payments, .ttl-privacy,.ttl-balance {
     font-size: 30px;
     line-height: 58px;
     padding: 0 0 0 57px;
     color:#1f757c;
-    background: url(../images/ico-promo-ttl.png) no-repeat;
     margin: 0 0 14px;
     font-weight:normal;
 }
@@ -919,7 +918,6 @@ table td  a {
 }
 .invites-table tr {
     height: 40px;
-    /* padding: 0 10px; */
 }
 .invites-table tbody td:first-child {
     color: #000;
@@ -928,7 +926,6 @@ table td  a {
 }
 .invites-table tbody p {
     font-size: 11px;
-    
     font-weight: bold;
 }
 .invites-table p {
@@ -939,6 +936,26 @@ table td  a {
     height: 24px;
     font-weight: 500;
     min-width: 134px;
+}
+/*balance*/
+.balance-count {
+    font-size: 24px;
+
+    color: #996600 !important;
+    margin-left: 10px;
+    font-family: Arial, sans-serif;
+}
+.ttl-common-balance {
+    background: url(../images/ico-common-balance.png) no-repeat;
+    display: inline-block;
+}
+.ttl-today-balance {
+    background: url(../images/ico-today-balance.png) no-repeat;
+    display: inline-block;
+}
+.wrap-balance {
+    display: inline-block;
+    margin-right: 35px;
 }
 /*PAGING*/
 .paging a {
