@@ -887,6 +887,20 @@ table td  a {
     overflow:hidden;
     height:1%;
 }
+/*payments*/
+.ttl-payments, .ttl-privacy {
+    font-size: 30px;
+    line-height: 58px;
+    padding: 0 0 0 57px;
+    color:#1f757c;
+    background: url(../images/ico-promo-ttl.png) no-repeat;
+    margin: 0 0 14px;
+    font-weight:normal;
+}
+/*privacy*/
+.ttl-privacy {
+    background: url(../images/ico-privacy-ttl.png) no-repeat;
+}
 /*PAGING*/
 .paging a {
     display:inline-block;
