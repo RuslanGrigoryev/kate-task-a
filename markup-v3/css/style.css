@@ -292,7 +292,7 @@ table th {
     vertical-align: bottom;
 }
 table td {
-    padding:6px;
+    padding: 6px 10px 6px 30px;
     background:#fff;
 }
 table td  a {
@@ -900,6 +900,45 @@ table td  a {
 /*privacy*/
 .ttl-privacy {
     background: url(../images/ico-privacy-ttl.png) no-repeat;
+}
+.invites {
+    background: url(../images/bg-thead.png);
+    width: 345px;
+    height: 362px;
+    padding: 4px;
+    margin-left: 50px;
+}
+.invites-table {
+    background: #fff;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+.invites-table thead {
+    color: #1f757c;
+    font-weight: 700;
+}
+.invites-table tr {
+    height: 40px;
+    /* padding: 0 10px; */
+}
+.invites-table tbody td:first-child {
+    color: #000;
+    font-weight: bold;
+    font-size: 11px;
+}
+.invites-table tbody p {
+    font-size: 11px;
+    
+    font-weight: bold;
+}
+.invites-table p {
+    color: #fff;
+    padding-top: 4px;
+    text-align: center;
+    background: url(../images/bg-privacy-block.png) no-repeat;
+    height: 24px;
+    font-weight: 500;
+    min-width: 134px;
 }
 /*PAGING*/
 .paging a {
