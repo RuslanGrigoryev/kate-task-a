@@ -957,6 +957,9 @@ table td  a {
     display: inline-block;
     margin-right: 35px;
 }
+.balance-table {
+    
+}
 /*PAGING*/
 .paging a {
     display:inline-block;
