@@ -924,7 +924,7 @@ table td  a {
     font-weight: bold;
     font-size: 11px;
 }
-.invites-table tbody p {
+.invites-table .code-value p {
     font-size: 11px;
     font-weight: bold;
 }
@@ -957,8 +957,28 @@ table td  a {
     display: inline-block;
     margin-right: 35px;
 }
-.balance-table {
-    
+.balance-table p{
+    background: url(../images/bg-balance-block.png) no-repeat;
+}
+.balances {
+    width: 510px;
+    height: 240px;
+}
+.balances .balance-table td:first-child {
+    font-size: 20px;
+    font-family: Arial;
+    color: #1f757c;
+    font-weight: normal;
+}
+.balances__today {
+    height: 201px;
+}
+.balance-table .code-value p {
+    font-size: 14px;
+    font-weight: normal;
+}
+.balance-table .curr-value p {
+    color: #663300;
 }
 /*PAGING*/
 .paging a {
