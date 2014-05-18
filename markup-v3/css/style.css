@@ -1071,15 +1071,19 @@ select {
     color: #1f757c;
     font-size: 20px;
     margin-bottom: 15px;
+    padding: 0 0 0 20px;
 }
 .wrap-input span {
     color: #f00;
+    padding: 0 3px;
 }
 .wrap-input label {
     font-size: 13px;
     font-family: Arial, sans-serif;
     color: #666;
-    /* text-align: right; */
+    text-align: right;
+    width: 158px;
+    display: inline-block;
 }
 .wrap-input .input-text {
     display: inline-block;
@@ -1101,6 +1105,7 @@ select {
 }
 .left-block, .right-block {
     display: inline-block;
+    width: 550px;
 }
 .wrap-input select {
     display: inline-block;
@@ -1122,7 +1127,7 @@ select {
     margin: 30px 0 0 0;
     border: 1px solid #e6e6e6;
     border-radius: 5px;
-    padding: 5px 30px;
+    padding: 5px;
 }
 .select-small {
     width: 106px;
@@ -1136,13 +1141,18 @@ select {
     border:1px solid #1f737b;
 }
 .country-accaunt .left-block, .country-accaunt .right-block {
-    width: 500px;
+    width: 550px;
 }
 .wrap-button {
     text-align: center;
+    padding: 12px 0;
 }
 .country-accaunt h5 {
     color: #960;
+}
+.country-accaunt label {
+    width: 162px;
+    display: inline-block;
 }
 /*PAGING*/
 .paging a {
