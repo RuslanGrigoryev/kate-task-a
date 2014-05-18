@@ -709,7 +709,7 @@ input {
     margin: 0 5px 0 0;
     float:left;
 }
-.payments  select {
+select {
     width:212px;
     font-size:13px;
     color: #090909;
@@ -1053,6 +1053,7 @@ input {
     background: #fff;
     min-height: 100px;
     padding: 20px 45px 5px 20px;
+    position: relative;
 }
 .acc-list {
     position: relative;
@@ -1078,8 +1079,6 @@ input {
     font-size: 13px;
     font-family: Arial, sans-serif;
     color: #666;
-    /* width: 150px; */
-    /* display: inline-block; */
 }
 .wrap-input .input-text {
     display: inline-block;
@@ -1101,6 +1100,22 @@ input {
 }
 .left-block, .right-block {
     display: inline-block;
+}
+.wrap-input select {
+    display: inline-block;
+    vertical-align: initial;
+    margin-left: 15px;
+}
+.tariphs {
+    color: #960;
+    font-size: 13px;
+    text-align: center;
+}
+.tariphs a {
+    color: #1f757c;
+    font-size: 13px;
+    text-decoration: underline;
+    font-weight: bold;
 }
 /*PAGING*/
 .paging a {
