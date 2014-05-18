@@ -1078,6 +1078,8 @@ input {
     font-size: 13px;
     font-family: Arial, sans-serif;
     color: #666;
+    /* width: 150px; */
+    /* display: inline-block; */
 }
 .wrap-input .input-text {
     display: inline-block;
@@ -1090,6 +1092,15 @@ input {
     color: #960;
     position: absolute;
     top: 30px;
+}
+.block-info__traffic label{
+    width: 150px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 15px;
+}
+.left-block, .right-block {
+    display: inline-block;
 }
 /*PAGING*/
 .paging a {
