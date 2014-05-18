@@ -292,7 +292,7 @@ table th {
     vertical-align: bottom;
 }
 table td {
-    padding: 6px 10px 6px 30px;
+    padding: 6px 17px;
     background:#fff;
 }
 table td  a {
@@ -709,7 +709,7 @@ table td  a {
     margin: 0 5px 0 0;
     float:left;
 }
-.payments #sort-order  select {
+.payments  select {
     width:212px;
     font-size:13px;
     color: #090909;
@@ -756,7 +756,8 @@ table td  a {
     font-weight:bold;
 }
 .payments table th {
-    padding: 9px 10px;
+    padding: 8px 15px;
+    width: 120px;
     font-size: 12px;
 }
 .payments table th.divider, .payments table td.divider {
@@ -1010,6 +1011,32 @@ table td  a {
 /*payments*/
 .ttl-payments {
     background: url(../images/ico-payments-ttl.png) no-repeat;
+}
+.payments table tr:first-child th {
+    text-align: left;   
+    padding: 9px 0 9px 20px;
+}
+.payments table tr:first-child span {
+    background: #1f757c url(../images/ico-table-arrow.png) 101% 49% no-repeat;
+    padding: 0 15px 0 0;
+}
+.payments table thead input {
+    background: url(../images/bg-table-tr.png) no-repeat;
+    border-radius: 6px;
+    padding: 4px 0 0 4px;
+    border: none;
+}
+.table-payments select {
+    margin: 0;
+    width: 150px;
+}
+#tfoot td {
+    padding: 10px;
+}
+.note-total {
+    color: #1f757c;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
 }
 /*PAGING*/
 .paging a {
