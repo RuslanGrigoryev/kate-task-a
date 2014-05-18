@@ -653,7 +653,7 @@ table td  a {
     display: block;
 }
 /* trafic */
-.ttl-trafic, .ttl-news {
+.ttl-trafic, .ttl-news, .ttl-add-sub {
     font-size: 30px;
     line-height: 58px;
     padding: 0 0 0 57px;
@@ -889,7 +889,7 @@ table td  a {
     height:1%;
 }
 /*payments*/
-.ttl-payments, .ttl-privacy,.ttl-balance {
+.ttl-payments, .ttl-privacy,.ttl-balance, .ttl-add-sub {
     font-size: 30px;
     line-height: 58px;
     padding: 0 0 0 57px;
@@ -1037,6 +1037,10 @@ table td  a {
     color: #1f757c;
     font-size: 14px;
     font-family: Arial, sans-serif;
+}
+/*Adding sub acc*/
+.ttl-add-sub {
+    background: url(../images/ico-add-ttl.png) no-repeat;
 }
 /*PAGING*/
 .paging a {
