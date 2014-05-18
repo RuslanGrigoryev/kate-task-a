@@ -1007,7 +1007,10 @@ table td  a {
 .news-block--top {
     background: url(../images/bg-text-top.png) no-repeat center top;
 }
-
+/*payments*/
+.ttl-payments {
+    background: url(../images/ico-payments-ttl.png) no-repeat;
+}
 /*PAGING*/
 .paging a {
     display:inline-block;
