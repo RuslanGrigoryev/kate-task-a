@@ -688,7 +688,7 @@ table td  a {
     border-bottom:1px dotted #1f757c;
     text-decoration:none;
 }
-.payments #sort-order .input-text {
+.input-text {
     background: url(../images/bg-input.png) repeat-x;
     width: 200px;
     height: 18px;
@@ -699,7 +699,7 @@ table td  a {
     line-height: 19px;
     border:1px solid #1f737b;
 }
-.payments #sort-order input {
+input {
     width: 202px;
     border: none;
     background: none;
@@ -1041,6 +1041,55 @@ table td  a {
 /*Adding sub acc*/
 .ttl-add-sub {
     background: url(../images/ico-add-ttl.png) no-repeat;
+    display: inline-block;
+}
+.wrap-block {
+    background: url(../images/bg-thead.png);
+    min-height: 100px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+.block-info {
+    background: #fff;
+    min-height: 100px;
+    padding: 20px 45px 5px 20px;
+}
+.acc-list {
+    position: relative;
+    top: 8px;
+}
+.required {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    color: #1f757c;
+}
+.required span {
+    color: #f00;
+}
+.block-info h5 {
+    color: #1f757c;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.wrap-input span {
+    color: #f00;
+}
+.wrap-input label {
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    color: #666;
+}
+.wrap-input .input-text {
+    display: inline-block;
+    position: relative;
+}
+.wrap-input {
+    padding: 0 0 0 120px;
+}
+.input-text span {
+    color: #960;
+    position: absolute;
+    top: 30px;
 }
 /*PAGING*/
 .paging a {
