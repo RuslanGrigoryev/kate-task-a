@@ -1079,13 +1079,14 @@ select {
     font-size: 13px;
     font-family: Arial, sans-serif;
     color: #666;
+    /* text-align: right; */
 }
 .wrap-input .input-text {
     display: inline-block;
     position: relative;
 }
 .wrap-input {
-    padding: 0 0 0 120px;
+    padding: 0 0 0 100px;
 }
 .input-text span {
     color: #960;
@@ -1116,6 +1117,32 @@ select {
     font-size: 13px;
     text-decoration: underline;
     font-weight: bold;
+}
+.country-accaunt {
+    margin: 30px 0 0 0;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+.select-small {
+    width: 106px;
+    font-size: 13px;
+    color: #090909;
+    display: block;
+    margin: 0 0 21px;
+    height: 26px;
+    border-radius: 5px;
+    background: url(../images/bg-input.png) repeat-x;
+    border:1px solid #1f737b;
+}
+.country-accaunt .left-block, .country-accaunt .right-block {
+    width: 500px;
+}
+.wrap-button {
+    text-align: center;
+}
+.country-accaunt h5 {
+    color: #960;
 }
 /*PAGING*/
 .paging a {
