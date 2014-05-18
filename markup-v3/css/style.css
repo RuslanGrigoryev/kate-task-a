@@ -653,7 +653,7 @@ table td  a {
     display: block;
 }
 /* trafic */
-.ttl-trafic {
+.ttl-trafic, .ttl-news {
     font-size: 30px;
     line-height: 58px;
     padding: 0 0 0 57px;
@@ -940,7 +940,6 @@ table td  a {
 /*balance*/
 .balance-count {
     font-size: 24px;
-
     color: #996600 !important;
     margin-left: 10px;
     font-family: Arial, sans-serif;
@@ -980,6 +979,35 @@ table td  a {
 .balance-table .curr-value p {
     color: #663300;
 }
+/*News*/
+.ttl-news {
+    background: url(../images/ico-news-ttl.png) no-repeat;
+}
+.news-block {
+    padding: 40px 0 20px 56px;
+}
+.news-block__header {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #1f757c;
+    margin: 1px 0 2px 0;
+}
+.news-block__time {
+    font-size: 11px;
+    color: #fff;
+}
+.news-block__text {
+    font-size: 13px;
+    color: #333;
+    margin: 15px 0;
+}
+.news-block--bottom {
+    background: url(../images/bg-text-bottom.png) no-repeat center bottom;
+}
+.news-block--top {
+    background: url(../images/bg-text-top.png) no-repeat center top;
+}
+
 /*PAGING*/
 .paging a {
     display:inline-block;
